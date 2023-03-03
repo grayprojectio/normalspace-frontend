@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.container > * {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.usn_fld {
+    margin-bottom: 8px;
+}
+
+.pwd_fld {
+    margin-bottom: 20px;
+}
+
+.error_msg {
+    position: absolute;
+    bottom: 60px;
+}

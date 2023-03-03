@@ -1,0 +1,27 @@
+.box {
+    margin-bottom: 32px;
+}
+
+.username_box {
+    margin-bottom: 8px
+}
+
+.description_and_attr_list_box {
+    display: flex;
+    flex-flow: wrap;
+    gap: 0 176px;
+}
+
+.attr_list_box {
+}
+
+.description_box {
+    width: 529px;
+}
+
+@media (max-width: 390px) {
+    .attr_list_box {
+        margin-top: 20px;
+    }
+}
+

@@ -1,0 +1,50 @@
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth_form_box {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.logo_box {
+    margin-bottom: 22px;
+}
+
+.username_input_box {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.password_input_box {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.start_btn_box {
+    width: 100%;
+}
+
+.error_message {
+    position: absolute;
+    bottom: 52px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.error_message span {
+    text-align: center;
+}
+
+
+@media (max-width: 390px) {
+    .error_message {
+
+    }
+}

@@ -1,0 +1,20 @@
+.box {
+    position: relative;
+    display: flex;
+}
+
+.box img {
+    object-fit: fill;
+}
+
+.btn_edit {
+    display: flex;
+    position: absolute;
+    top: 135px;
+    width: 100%;
+    opacity: 0;
+}
+
+.box_hover .btn_edit {
+    opacity: 1;
+}

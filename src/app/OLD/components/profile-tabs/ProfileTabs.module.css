@@ -1,0 +1,13 @@
+.box {
+    /*border: 1px solid red;*/
+}
+
+.list {
+    display: flex;
+    gap: 37px;
+    margin-bottom: 20px;
+}
+
+.active * {
+    text-decoration: underline;
+}

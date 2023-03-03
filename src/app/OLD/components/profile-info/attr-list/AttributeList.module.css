@@ -1,0 +1,6 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    max-width: 528px;
+    flex-flow: wrap;
+}

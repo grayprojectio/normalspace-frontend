@@ -1,0 +1,28 @@
+.box {
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+
+    background: rgba(217, 217, 217, 0.8);
+    backdrop-filter: blur(2px);
+
+    cursor: initial;
+}
+
+
+.modal_content {
+    padding: 16px;
+    width: 384px;
+    height: 652px;
+    background: white;
+
+    cursor: initial;
+}

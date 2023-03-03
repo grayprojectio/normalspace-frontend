@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1px;
+}
+
+.name {
+    width: 176px;
+}
+
+.value {
+    width: 88px;
+}

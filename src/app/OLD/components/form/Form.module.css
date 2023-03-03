@@ -1,0 +1,58 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 435px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 190px;
+    width: 300px;
+}
+
+.logo {
+    margin-bottom: 22px;
+}
+
+.usn_inp {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.pwd_inp {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.start_btn {
+    width: 100%;
+}
+
+.error_message {
+    position: absolute;
+    bottom: 52px;
+}
+
+.error_message p {
+    color: red;
+}
+
+@media (max-width: 390px) {
+    .error_message {
+        width: 70%;
+    }
+}
+
+@media (max-height: 515px) {
+    .error_message {
+        top: 52px;
+    }
+}
+
+

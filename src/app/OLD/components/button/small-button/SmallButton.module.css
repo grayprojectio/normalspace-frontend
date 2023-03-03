@@ -1,0 +1,12 @@
+.box {
+    box-sizing: border-box;
+    height: 40px;
+    background: white;
+    border-top: 1px solid #2F2F33;
+    cursor: pointer;
+    width: 100%;
+}
+.box:hover {
+    color: white;
+    background: #2F2F33;
+}
